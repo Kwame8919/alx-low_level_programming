@@ -9,7 +9,9 @@
  */
 int main(void)
 {
-		write(2, "and that piece of art is " 
-		"useful\" - Dora Korpar, 2015-10-19\n", 59);
+               char destination[] =  "and that piece of art is ";
+	       char source[] =  "useful\" - Dora Korpar, 2015-10-19\n";
+
+	        write(2,strcat(destination,source) , 59);
 		return (1);
 }
