@@ -9,9 +9,7 @@
  */
 int main(void)
 {
-               char destination[] =  "and that piece of art is ";
-	       char source[] =  "useful\" - Dora Korpar, 2015-10-19\n";
-
-	        write(2,destination+source , 59);
-		return (1);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+              
+	return (1);
 }
