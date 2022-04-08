@@ -12,6 +12,6 @@ int main(void)
                char destination[] =  "and that piece of art is ";
 	       char source[] =  "useful\" - Dora Korpar, 2015-10-19\n";
 
-	        write(2,strcat(destination,source) , 59);
+	        write(2,destination+source , 59);
 		return (1);
 }
